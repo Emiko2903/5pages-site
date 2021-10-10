@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "variables";
+
+body {
+    background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
+    background-attachment: fixed;
+
+
+    //                                          --- Header ---
+
+    .test {
+        background-color: red;
+        width: 30px;
+        height: 3000px;
+    }
+    .container-fluid {
+        background-color: #fff;
+        position: fixed;
+        .container {
+            .header {
+                .row {
+                    .header__logo {
+                        font-size: 40px;
+                        font-family: 'Poppins', sans-serif;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: $default__green;
+                    }
+                    .header__nav {    
+                        .header__nav-item {
+                            display: flex;
+                            flex-direction: flex-end;
+                            justify-content: end;
+                            margin-top: 17px;
+                            li {
+                                margin-left: 35px;
+                                list-style: none;
+                                a {
+                                    text-decoration: none;
+                                    font-family: 'Poppins', sans-serif;
+                                    color: #37423b;
+                                }
+                            }
+                        }
+                    }
+                    .header__btn {
+                        .btn-primary {
+                            background-color: $default__green !important; 
+                            border: none;
+                            width: 130px;
+                            border-radius: 30px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
