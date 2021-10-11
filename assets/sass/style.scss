@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 @import "variables";
@@ -9,27 +10,38 @@
 body {
     background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
     background-attachment: fixed;
+    background-size: cover;
+    &:before {
+        z-index: 1;
+        content: "";
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 
 
     //                                          --- Header ---
 
-    .test {
-        background-color: red;
-        width: 30px;
-        height: 3000px;
-    }
     .container-fluid {
+        z-index: 2;
         background-color: #fff;
         position: fixed;
         .container {
             .header {
                 .row {
                     .header__logo {
+                        a {
+                            text-decoration: none;
+                            color: $default__green;
+                        }
                         font-size: 40px;
                         font-family: 'Poppins', sans-serif;
                         text-transform: uppercase;
                         font-weight: bold;
-                        color: $default__green;
+                        
                     }
                     .header__nav {    
                         .header__nav-item {
@@ -61,4 +73,27 @@ body {
             }
         }
     }
+
+
+//                                --- Header / Title --- 
+
+    
+.container {
+    .row {
+        .header__title {
+            z-index: 2;
+            margin: 160px 0 160px;
+            h1 {
+                font-size: 50px;
+                font-weight: 600;
+                color: white;
+            }
+            h4 {
+                color: white;
+                font-family: 'Raleway', sans-serif;
+            }
+        }
+    }
+}
+
 }

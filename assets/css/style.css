@@ -3,20 +3,28 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
   background-attachment: fixed;
+  background-size: cover;
 }
 
-body .test {
-  background-color: red;
-  width: 30px;
-  height: 3000px;
+body:before {
+  z-index: 1;
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 body .container-fluid {
+  z-index: 2;
   background-color: #fff;
   position: fixed;
 }
@@ -26,6 +34,10 @@ body .container-fluid .container .header .row .header__logo {
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+body .container-fluid .container .header .row .header__logo a {
+  text-decoration: none;
   color: #5fcf80;
 }
 
@@ -60,5 +72,21 @@ body .container-fluid .container .header .row .header__btn .btn-primary {
   width: 130px;
   border-radius: 30px;
   margin-top: 10px;
+}
+
+body .container .row .header__title {
+  z-index: 2;
+  margin: 160px 0 160px;
+}
+
+body .container .row .header__title h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+body .container .row .header__title h4 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
