@@ -93,7 +93,15 @@ body .container .row .header__title {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 310px 0 50px;
+  margin: 310px 0 228px;
+}
+
+body .container .row .header__title h1 {
+  text-shadow: 3px 3px black;
+}
+
+body .container .row .header__title h4 {
+  text-shadow: 3px 3px black;
 }
 
 body .container .row .header__title .header__title-btn {
@@ -143,5 +151,67 @@ body .container-fluid .container .row .flex__rev {
 
 body .container-fluid .container .row .flex__rev .main__foto .main__img {
   width: 100%;
+}
+
+body .container-fluid .container .row .flex__rev .main__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container-fluid .container .row .flex__rev .main__info .main__info-text-italic {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+body .container-fluid .container .row .flex__rev .main__info .main__info-text {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+body .container-fluid .container .row .flex__rev .main__info .main__info-text .far {
+  margin-right: 12px;
+  font-size: 22px;
+  color: #5fcf80;
+}
+
+body .stats__fluid-container {
+  background-color: #f6f7f6;
+}
+
+body .stats__fluid-container .container .flex__stats {
+  padding: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .stats__fluid-container .container .flex__stats .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .stats__fluid-container .container .flex__stats .stats .stats__number {
+  color: #5fcf80;
+  font-size: 44px;
+  font-family: 'Open Sans', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
