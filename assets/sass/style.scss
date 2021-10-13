@@ -175,7 +175,7 @@ body {
         }
     }
 
-                                              // -- --- Stats --- --
+                                  // -- --- Stats --- --
     
     .stats__fluid-container {
         background-color: #f6f7f6;
@@ -191,8 +191,42 @@ body {
                     align-items: center;
                     .stats__number {
                         color: $default__green;
-                        font-size: 44px;
+                        font-size: 50px;
                         font-family: 'Open Sans', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+
+                              // --- Why us ---
+    
+    .container-fluid {
+        .container {
+            .why__us {
+                display: flex;
+                padding: 60px;
+                .why__us-green {
+                    .why__us-text {
+
+                    }
+                    .why__us-btn {
+                        .btn {
+
+                        }
+                    }
+                }
+                .why__us-white {
+                    display: flex;
+                    .why__us-card {
+                        margin-left: 20px;
+                        border: 1px solid rgb(177, 174, 174);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .why__us-card-inner {
+                            text-align: center;
+                        }
                     }
                 }
             }

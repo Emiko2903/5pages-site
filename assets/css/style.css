@@ -211,7 +211,39 @@ body .stats__fluid-container .container .flex__stats .stats {
 
 body .stats__fluid-container .container .flex__stats .stats .stats__number {
   color: #5fcf80;
-  font-size: 44px;
+  font-size: 50px;
   font-family: 'Open Sans', sans-serif;
+}
+
+body .container-fluid .container .why__us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px;
+}
+
+body .container-fluid .container .why__us .why__us-white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container-fluid .container .why__us .why__us-white .why__us-card {
+  margin-left: 20px;
+  border: 1px solid #b1aeae;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-fluid .container .why__us .why__us-white .why__us-card .why__us-card-inner {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
