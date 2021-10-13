@@ -7,6 +7,19 @@
 
 @import "variables";
 
+// %fa-button {
+//     width: 70px;
+//     height: 70px;
+//     color: $default__green;
+//     font-size: 30px;
+//     background-color: rgb(199, 255, 213);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 50%;
+// }
+
+
 body {
     background-image: url(https://bootstrapmade.com/demo/templates/Mentor/assets/img/hero-bg.jpg);
     background-attachment: fixed;
@@ -205,32 +218,90 @@ body {
         .container {
             .why__us {
                 display: flex;
-                padding: 60px;
+                padding: 60px 0;
                 .why__us-green {
+                    background-color: $default__green;
+                    color: white;
+                    padding: 40px;
+                    border-radius: 6px;
                     .why__us-text {
 
                     }
                     .why__us-btn {
+                        display: flex;
+                        justify-content: center;
                         .btn {
-
+                            background-color: rgba(228, 255, 234, 0.178); 
+                            border: none;
+                            width: 160px;
+                            border-radius: 30px;
+                            color: white;
+                            transition: 0.3s linear;
+                            &:hover {
+                                color: $default__green;
+                                background-color: white;
+                            }
                         }
                     }
                 }
                 .why__us-white {
                     display: flex;
                     .why__us-card {
-                        margin-left: 20px;
-                        border: 1px solid rgb(177, 174, 174);
+                        border-radius: 6px;
+                        margin: 14px;
+                        border: 1px solid rgb(206, 203, 203);
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+                        justify-content: space-around;
                         .why__us-card-inner {
                             text-align: center;
+                            padding: 12px;
+                            font-size: 14px;
+                            .fa-list-alt {
+                                width: 70px;
+                                height: 70px;
+                                color: $default__green;
+                                font-size: 30px;
+                                background-color: rgb(230, 255, 235);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50%;
+                            }
+                            .fa-unity {
+                                width: 70px;
+                                height: 70px;
+                                color: $default__green;
+                                font-size: 30px;
+                                background-color: rgb(230, 255, 235);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50%;
+                            }
+                            .fa-images {
+                                width: 70px;
+                                height: 70px;
+                                color: $default__green;
+                                font-size: 30px;
+                                background-color: rgb(230, 255, 235);
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 50%;
+                            }
                         }
                     }
                 }
             }
         }
+    }
+    .skills {
+        background-color: white;
+    }
+    .skills__items {
+        background-color: aqua;
     }
 }
 
