@@ -339,9 +339,218 @@ body .container-fluid .container .why__us .why__us-white .why__us-card .why__us-
 
 body .skills {
   background-color: white;
+  padding-bottom: 60px;
 }
 
-body .skills__items {
-  background-color: aqua;
+body .skills .container .row .skills__items {
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .skills .container .row .skills__items span {
+  padding: 20px 21px;
+  text-align: left;
+  border: 1px rgba(24, 23, 23, 0.103) solid;
+  width: 100%;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+body .skills .container .row .skills__items span .fa-city {
+  color: #ffa600;
+}
+
+body .skills .container .row .skills__items span .fa-signal {
+  color: #1100ff;
+}
+
+body .skills .container .row .skills__items span .fa-calendar-alt {
+  color: #ff0953;
+}
+
+body .skills .container .row .skills__items span .fa-paint-roller {
+  color: #f04dff;
+}
+
+body .skills .container .row .skills__items span .fa-database {
+  color: #4690ff;
+}
+
+body .skills .container .row .skills__items span .fa-compact-disc {
+  color: #ffc671;
+}
+
+body .skills .container .row .skills__items span .fa-file-alt {
+  color: #0fffff;
+}
+
+body .skills .container .row .skills__items span .fa-house-user {
+  color: #610dfd;
+}
+
+body .skills .container .row .skills__items span .fa-anchor {
+  color: #5c3636;
+}
+
+body .skills .container .row .skills__items span .fa-music {
+  color: #b8016b;
+}
+
+body .skills .container .row .skills__items span .fa-satellite-dish {
+  color: #ff6600;
+}
+
+body .skills .container .row .skills__items span .fa-fingerprint {
+  color: #90ff50;
+}
+
+body .skills .container .row .skills__items span:hover {
+  border: 1px #5fcf80 solid;
+  color: #5fcf80;
+}
+
+body .skills .container .row .skills__items span i {
+  font-size: 27px;
+  margin-right: 10px;
+}
+
+body .skills .container .row .skills__items span a {
+  text-decoration: none;
+  color: none;
+  color: #757575;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+body .skills .container .row .skills__items span a:hover {
+  color: #5fcf80;
+}
+
+body .courses {
+  background-color: white;
+}
+
+body .courses .container .row .courses__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__img .img {
+  width: 100%;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px;
+  height: 258px;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-price p {
+  margin: 0;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-price .title {
+  background-color: #5fcf80;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 14px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-right: auto;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #5f5f5f;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-text span {
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__left .avatar {
+  width: 55px;
+  border-radius: 50%;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__left .avatar__name {
+  margin-left: 10px;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__right .icon__man {
+  margin-right: 15px;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__right .icon__man i {
+  margin-right: 5px;
+}
+
+body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__right .icon__heart i {
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */

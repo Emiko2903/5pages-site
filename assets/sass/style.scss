@@ -224,9 +224,6 @@ body {
                     color: white;
                     padding: 40px;
                     border-radius: 6px;
-                    .why__us-text {
-
-                    }
                     .why__us-btn {
                         display: flex;
                         justify-content: center;
@@ -297,11 +294,149 @@ body {
             }
         }
     }
+    
+                             // --- Skills ---
+
     .skills {
         background-color: white;
+        padding-bottom: 60px;
+        .container {
+            .row {
+                .skills__items {
+                    text-transform: capitalize;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    span {
+                        .fa-city {color: rgb(255, 166, 0);}
+                        .fa-signal {color: rgb(17, 0, 255);}
+                        .fa-calendar-alt {color: rgb(255, 9, 83);}
+                        .fa-paint-roller {color: rgb(240, 77, 255);}
+                        .fa-database {color: rgb(70, 144, 255);}
+                        .fa-compact-disc {color: rgb(255, 198, 113);}
+                        .fa-file-alt {color: rgb(15, 255, 255);}
+                        .fa-house-user {color: rgb(97, 13, 253);}
+                        .fa-anchor {color: rgb(92, 54, 54);}
+                        .fa-music {color: rgb(184, 1, 107);}
+                        .fa-satellite-dish {color: rgb(255, 102, 0);}
+                        .fa-fingerprint {color: rgb(144, 255, 80);}
+                        padding: 20px 21px;
+                        text-align: left;
+                        border: 1px rgba(24, 23, 23, 0.103) solid;
+                        width: 100%;
+                        font-size: 16px;
+                        display: flex;
+                        transition: 0.2s linear;
+                        &:hover {
+                            border: 1px $default__green solid;
+                            color: $default__green;
+                        }
+                        i {
+                            font-size: 27px;
+                            margin-right: 10px;
+                        }
+                        a {
+                            text-decoration: none;
+                            color: none;
+                            color: rgb(117, 117, 117);
+                            transition: 0.2s linear;
+                            &:hover {
+                                color: $default__green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
-    .skills__items {
-        background-color: aqua;
+                        // --- Skills ---
+
+    .courses {
+        background-color: white;
+        .container {
+            .row {
+                .courses__header {
+                    display: flex;
+                    flex-direction: column;
+                    .courses__header-prefix {}
+                    .courses__header-suffix {}
+                }
+                .courses__card {
+                    .courses__card-inner {
+                        .card__img {
+                            .img {
+                                width: 100%;
+                            }
+                        }
+                        .card__info {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            padding: 18px;
+                            height: 258px;
+                            .card__info-price {
+                                display: flex;
+                                justify-content: end;
+                                p {
+                                    margin: 0;
+                                 
+                                }
+                                .title {
+                                    background-color: $default__green;
+                                    color: white;
+                                    font-family: 'Raleway', sans-serif;
+                                    padding: 5px 14px;
+                                    font-size: 14px;
+                                    border-radius: 3px;
+                                    margin-right: auto;
+                                }
+                            }
+                            .card__info-text {
+                                font-family: "Open Sans", sans-serif;
+                                font-size: 14px;
+                                color: rgb(95, 95, 95);
+                                span {
+                                    font-size: 22px;
+                                    font-family: 'Raleway', sans-serif;
+                                    color: black;
+                                    // display: block;
+                                }
+                            }
+                            .card__info-avatar {
+                                display: flex;
+                                justify-content: space-between;
+                                .avatar__left {
+                                    display: flex;
+                                    align-items: center;
+                                    .avatar {
+                                        width: 55px;
+                                        border-radius: 50%;
+                                    }
+                                    .avatar__name {
+                                        margin-left: 10px;
+                                    }
+                                }
+                                .avatar__right {
+                                    display: flex;
+                                    align-items: center;
+                                    .icon__man {
+                                        i {
+                                            margin-right: 5px;
+                                        }
+                                        margin-right: 15px;
+                                    }
+                                    .icon__heart {
+                                        i {
+                                            margin-right: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
