@@ -358,10 +358,23 @@ body {
                 .courses__header {
                     display: flex;
                     flex-direction: column;
-                    .courses__header-prefix {}
-                    .courses__header-suffix {}
+                    .courses__header-prefix {
+                        color: #a7a7a7;
+                        span {
+                            display: inline-block;
+                            color: white;
+                            border-bottom: 1px solid $default__green;
+                            margin-left: 10px;
+                            transform: translate(0px, -12px);
+                        }
+                    }
+                    .courses__header-suffix {
+                        font-size: 42px;
+                        margin-bottom: 40px;
+                    }
                 }
                 .courses__card {
+                    margin-bottom: 100px;
                     .courses__card-inner {
                         .card__img {
                             .img {
@@ -438,5 +451,88 @@ body {
             }
         }
     }
-}
+
+                                    // --- Mentors ---
+
+    .mentors {
+        background-color: white;
+        padding-bottom: 50px;
+        .container {
+            .mentors__inner {
+                .mentors__card {
+                    .mentors__card-img {
+                        .mentor__img {
+                            width: 100%;
+                        }
+                    }
+                    .mentors__card-info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 20px;
+                        .info__text {
+                            text-align: center;
+                            h4 {
+                                font-family: 'Raleway', sans-serif;
+                            }
+                            p {
+                                font-style: italic;
+                                font-weight: normal;
+                                font-family: 'Raleway', sans-serif;
+                            }
+                            .gray__discrip {
+                                color: rgb(138, 138, 138);
+                                font-size: 12px;
+                            }
+                        }
+                        .info__socials {
+                            i {
+                                color: rgb(138, 138, 138);
+                                margin-left: 7px;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+                              // --- Footer ---
+    .footer {
+        background-color: rgb(240, 240, 240);
+        .container { 
+            padding-top: 70px;
+            .row {
+                .col {
+                    a {
+                        color: rgb(138, 138, 138);
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 13px;
+                    }
+                    ul {
+                        list-style: none;
+                        padding-left: 0;
+                        li {
+                            a {
+                                text-decoration: none;
+                                font-size: 18px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }        
+        }
+    }
+    .btn-outline-secondary {
+        border-radius: 30px;
+    }
+    .form-control {
+        border-radius: 30px;
+    }
+    #button-addon2 {
+        border-radius: 30px;
+    }
+}   
 

@@ -452,6 +452,28 @@ body .courses .container .row .courses__header {
           flex-direction: column;
 }
 
+body .courses .container .row .courses__header .courses__header-prefix {
+  color: #a7a7a7;
+}
+
+body .courses .container .row .courses__header .courses__header-prefix span {
+  display: inline-block;
+  color: white;
+  border-bottom: 1px solid #5fcf80;
+  margin-left: 10px;
+  -webkit-transform: translate(0px, -12px);
+          transform: translate(0px, -12px);
+}
+
+body .courses .container .row .courses__header .courses__header-suffix {
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+body .courses .container .row .courses__card {
+  margin-bottom: 100px;
+}
+
 body .courses .container .row .courses__card .courses__card-inner .card__img .img {
   width: 100%;
 }
@@ -552,5 +574,90 @@ body .courses .container .row .courses__card .courses__card-inner .card__info .c
 
 body .courses .container .row .courses__card .courses__card-inner .card__info .card__info-avatar .avatar__right .icon__heart i {
   margin-right: 5px;
+}
+
+body .mentors {
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-img .mentor__img {
+  width: 100%;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info .info__text {
+  text-align: center;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info .info__text h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info .info__text p {
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info .info__text .gray__discrip {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+body .mentors .container .mentors__inner .mentors__card .mentors__card-info .info__socials i {
+  color: #8a8a8a;
+  margin-left: 7px;
+  font-size: 20px;
+}
+
+body .footer {
+  background-color: #f0f0f0;
+}
+
+body .footer .container {
+  padding-top: 70px;
+}
+
+body .footer .container .row .col a {
+  color: #8a8a8a;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
+body .footer .container .row .col ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+body .footer .container .row .col ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-size: 13px;
+}
+
+body .btn-outline-secondary {
+  border-radius: 30px;
+}
+
+body .form-control {
+  border-radius: 30px;
+}
+
+body #button-addon2 {
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
