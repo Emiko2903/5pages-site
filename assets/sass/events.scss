@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import "variables";
+
+
+//                                          --- Header ---
+
+.fixed__header {
+    z-index: 999;
+    background-color: white;
+    position: fixed;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // height: 72px;
+    .container {
+        .header {
+            .row {
+                .header__logo {
+                    a {
+                        text-decoration: none;
+                        color: $default__green;
+                    }
+                    font-size: 40px;
+                    font-family: 'Poppins', sans-serif;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    
+                }
+                .header__nav {    
+                    .header__nav-item {
+                        display: flex;
+                        flex-direction: flex-end;
+                        justify-content: end;
+                        margin-top: 17px;
+                        li {
+                            margin-left: 35px;
+                            list-style: none;
+                            // .active {
+                            //     &:active {
+                            //         color: red;
+                            //     }
+                            // }
+                            a {
+                                &:hover {
+                                    color: $default__green !important;
+                                }
+                                transition: 0.15s linear;
+                                text-decoration: none;
+                                font-family: 'Poppins', sans-serif;
+                                color: #37423b;
+                            }
+                        }
+                    }
+                }
+                .header__btn {
+                    .btn-primary {
+                        background-color: $default__green !important; 
+                        border: none;
+                        width: 130px;
+                        border-radius: 30px;
+                        margin-top: 10px;
+                    }
+                    .btn {
+                        transition: 0.2s linear;
+                        &:hover {
+                            background-color: $shadow__green !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+                           // green line
+
+
+.green__line {
+    min-width: 472px;
+    padding: 90px 0px 30px;
+    background-color: $default__green;
+    color: white;
+    text-align: center;
+    .container {
+        .greeen__line-inner {
+            .size_1 {
+                font-size: 30px;
+            }
+            display: flex;
+            flex-direction: column;   
+        }
+    }
+}
+
+                                // events
+
+.events {
+    .container {
+        .row {
+            .events__card {
+                padding: 60px 20px 60px 20px;
+                .overflow {
+                    overflow: hidden;
+                }
+                .events__img {
+                    width: 100%;
+                    overflow: hidden;
+                    transition: 0.2s linear;
+                    &:hover {
+                        transform: scale(110%, 110%);
+                    }
+                }
+                .shadow__box {
+                    padding: 30px;
+                    .events__info {
+                        background-color: white;
+                        transform: translateY(-93px);
+                        box-shadow: 5px 10px 20px rgb(161, 161, 161);
+                        padding: 30px;
+                        h5 {
+                            text-align: center;
+                            font-family: 'Raleway', sans-serif;
+                        }
+                        h6 {
+                            text-align: center;
+                            font-style: italic;
+                            font-size: 14px;
+                        }
+                        p {
+                            font-size: 14px;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+                         // --- Footer ---
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    min-width: 472px;
+    .container { 
+        padding-top: 70px;
+        .row {
+            .col-lg-3 {
+                a {
+                    color: rgb(138, 138, 138);
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 13px;
+                }
+                ul {
+                    list-style: none;
+                    padding-left: 0;
+                    li {
+                        a {
+                            text-decoration: none;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }        
+    }
+}

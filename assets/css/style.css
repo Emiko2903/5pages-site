@@ -135,6 +135,7 @@ body .container .row .header__title h4 {
 body .container-fluid {
   background-color: white;
   z-index: 998;
+  min-width: 472px;
 }
 
 body .container-fluid .container .row .flex__rev {
@@ -340,6 +341,7 @@ body .container-fluid .container .why__us .why__us-white .why__us-card .why__us-
 body .skills {
   background-color: white;
   padding-bottom: 60px;
+  min-width: 472px;
 }
 
 body .skills .container .row .skills__items {
@@ -440,6 +442,7 @@ body .skills .container .row .skills__items span a:hover {
 
 body .courses {
   background-color: white;
+  min-width: 472px;
 }
 
 body .courses .container .row .courses__header {
@@ -579,6 +582,7 @@ body .courses .container .row .courses__card .courses__card-inner .card__info .c
 body .mentors {
   background-color: white;
   padding-bottom: 50px;
+  min-width: 472px;
 }
 
 body .mentors .container .mentors__inner .mentors__card .mentors__card-img .mentor__img {
@@ -626,38 +630,35 @@ body .mentors .container .mentors__inner .mentors__card .mentors__card-info .inf
 
 body .footer {
   background-color: #f0f0f0;
+  min-width: 472px;
 }
 
 body .footer .container {
   padding-top: 70px;
 }
 
-body .footer .container .row .col a {
+body .footer .container .row .col-lg-3 a {
   color: #8a8a8a;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
 }
 
-body .footer .container .row .col ul {
+body .footer .container .row .col-lg-3 ul {
   list-style: none;
   padding-left: 0;
 }
 
-body .footer .container .row .col ul li a {
+body .footer .container .row .col-lg-3 ul li a {
   text-decoration: none;
-  font-size: 18px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
-body .btn-outline-secondary {
-  border-radius: 30px;
-}
-
-body .form-control {
-  border-radius: 30px;
-}
-
-body #button-addon2 {
-  border-radius: 30px;
+@media (max-width: 900px) {
+  body .flex__rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

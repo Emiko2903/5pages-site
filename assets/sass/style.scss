@@ -153,6 +153,7 @@ body {
     .container-fluid {
         background-color: white;
         z-index: 998;
+        min-width: 472px;
         .container {
             .row {
                 .flex__rev {
@@ -300,6 +301,7 @@ body {
     .skills {
         background-color: white;
         padding-bottom: 60px;
+        min-width: 472px;
         .container {
             .row {
                 .skills__items {
@@ -349,10 +351,11 @@ body {
             }
         }
     }
-                        // --- Skills ---
+                        // --- Courses ---
 
     .courses {
         background-color: white;
+        min-width: 472px;
         .container {
             .row {
                 .courses__header {
@@ -457,6 +460,7 @@ body {
     .mentors {
         background-color: white;
         padding-bottom: 50px;
+        min-width: 472px;
         .container {
             .mentors__inner {
                 .mentors__card {
@@ -501,10 +505,11 @@ body {
                               // --- Footer ---
     .footer {
         background-color: rgb(240, 240, 240);
+        min-width: 472px;
         .container { 
             padding-top: 70px;
             .row {
-                .col {
+                .col-lg-3 {
                     a {
                         color: rgb(138, 138, 138);
                         font-family: 'Raleway', sans-serif;
@@ -516,8 +521,7 @@ body {
                         li {
                             a {
                                 text-decoration: none;
-                                font-size: 18px;
-                                font-size: 13px;
+                                font-size: 15px;
                             }
                         }
                     }
@@ -525,14 +529,12 @@ body {
             }        
         }
     }
-    .btn-outline-secondary {
-        border-radius: 30px;
-    }
-    .form-control {
-        border-radius: 30px;
-    }
-    #button-addon2 {
-        border-radius: 30px;
+    @media (max-width: 900px) {
+        .flex__rev {
+            flex-direction: column;
+        }
     }
 }   
+
+
 
